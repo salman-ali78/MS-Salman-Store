@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MS Rasheed general Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🛒 MS Sohail general store</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+      <a href="login.html" id="login-link">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to MS Salman General Store</h2>
+    <p>Shop International Products at Best Prices</p>
+  </section>
+
+  <section class="products">
+    <h2>Featured Products</h2>
+
+    <div class="product">
+      <img src="sk.jpg" alt="Smartphone">
+      <h3>Smartphone</h3>
+      <p>$299</p>
+      <button onclick="addToCart('Smartphone',299)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="ss.jpg" alt="Shoes">
+      <h3>Running Shoes</h3>
+      <p>$89</p>
+      <button onclick="addToCart('Running Shoes',89)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="style.jpg" alt="Headphones">
+      <h3>Headphones</h3>
+      <p>$49</p>
+      <button onclick="addToCart('Headphones',49)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://i.imgur.com/D9Zr9vS.jpg" alt="Grocery">
+      <h3>Organic Grocery Pack</h3>
+      <p>$25</p>
+      <button onclick="addToCart('Grocery Pack',25)">Add to Cart</button>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
